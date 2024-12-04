@@ -25,19 +25,13 @@ Before running the script, make sure you have one of the following runtimes inst
 
 ### Step 1: Download the Script
 
-You can download and run the setup script using `curl` or `wget`.
-
-**Using `curl`**:
+clone the repository:
 
 ```bash
-curl -fsSL https://github.com/Zachacious/ultimate-ts-vscode-config/blob/main/setup.js -o setup.js
+git clone
 ```
 
-**Using `wget`**:
-
-```bash
-wget https://github.com/Zachacious/ultimate-ts-vscode-config/blob/main/setup.js -O setup.js
-```
+TODO: Add download and setup script so that wget/curl can be used to download and execute the script.
 
 ### Step 2: Run the Script
 
