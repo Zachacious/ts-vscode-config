@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "tailwindCSS.experimental.classRegex": ["tw`([^`]*)"],
+  "prettier.tailwindConfig": "./tailwind.config.js",
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.editor.enablePreview": false,
+  "breadcrumbs.enabled": true,
+  "typescript.suggest.autoImports": true,
+  "files.autoSave": "onFocusChange",
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  }
+}
