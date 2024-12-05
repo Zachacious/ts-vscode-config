@@ -1,6 +1,5 @@
 {
   "name": "zachs-ts-vscode-config",
-  "bin": {
-    "setup-script": "./download.js"
-  }
+  "version": "0.0.3",
+  "bin": "./download.js"
 }
