@@ -44,8 +44,7 @@ const isVscodeInstalled = () => {
 
 // Detect runtime based on how the script is being executed
 const detectRuntime = () => {
-  const args = process.argv[0]; // The first argument is the runtime command
-  console.log("args", process.argv);
+  const args = process.argv[2]; // The first argument is the runtime command
   if (args.includes("bun")) {
     return "bun";
   }
