@@ -45,6 +45,7 @@ const isVscodeInstalled = () => {
 // Detect runtime based on how the script is being executed
 const detectRuntime = () => {
   const args = process.argv[0]; // The first argument is the runtime command
+  console.log("args", args);
   if (args.includes("bun")) {
     return "bun";
   }
@@ -58,9 +59,6 @@ const detectRuntime = () => {
   process.exit(1);
 };
 
-// Detect runtime
-const runtime = detectRuntime();
-
 // Main setup script
 const setup = async () => {
   console.log("Setting up the ultimate TypeScript environment...");
@@ -73,6 +71,8 @@ const setup = async () => {
     process.exit(1);
   }
 
+  // Detect runtime
+  const runtime = detectRuntime();
   // const runtime = await askRuntime();
   console.log("Using runtime:", runtime);
 
