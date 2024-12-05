@@ -47,7 +47,7 @@ function runSetupScript(scriptPath) {
   });
 }
 
-async () => {
+(async () => {
   try {
     // Create temporary directory
     fs.mkdirSync(TEMP_DIR, { recursive: true });
@@ -63,4 +63,4 @@ async () => {
   } catch (err) {
     console.error(`Error: ${err.message}`);
   }
-};
+})();
