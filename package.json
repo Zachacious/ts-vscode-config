@@ -1,5 +1,5 @@
 {
   "bin": {
-    "setup-script": "./setup.js"
+    "setup-script": "./download.js"
   }
 }
